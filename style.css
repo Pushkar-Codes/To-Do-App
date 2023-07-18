@@ -1,0 +1,59 @@
+* {
+    background-color: rgb(17, 4, 30);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background-color: lavender;
+    overflow-y: scroll;
+    
+}
+
+.logo-img {
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+.inputBox {
+    border: 1px solid rgb(0, 44, 92);
+    border-radius: 8px;
+    padding-left: 12px;
+    width: 500px;
+    height: 40px;
+    background-color: rgb(242, 229, 255);
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.addButton {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 44, 92);
+    color: palevioletred;
+    padding: 14px 20px;
+    margin-left: 23px;
+    font-weight: bolder;
+    
+}
+
+.container p {
+    border: 1px solid rgb(0, 44, 92);
+    border-radius: 8px;
+    width: 500px;
+    height: 30px;
+    padding-left: 12px;
+    padding-top: 8px;
+    background-color: rgb(242, 229, 255);
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
