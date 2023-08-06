@@ -6,9 +6,9 @@
 
 .container {
     border: 1px solid white;
-    border-radius: 12px;
-    width: 70%;
-    height: 500px;
+    border-radius: 1vw;
+    width: 70vw;
+    height: 60vh;
     position: absolute;
     top: 25%;
     left: 15%;
@@ -18,42 +18,85 @@
 }
 
 .logo-img {
-    height: 150px;
-    margin-top: 40px;
-    margin-left: 220px;
+    height: 3vw;
+    margin-top: 15vh;
+    margin-left: 15vw;
 }
 
 .inputBox {
     border: 1px solid rgb(0, 44, 92);
-    border-radius: 8px;
-    padding-left: 12px;
-    width: 500px;
-    height: 40px;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    width: 50vw;
+    height: 6vh;
     background-color: rgb(242, 229, 255);
-    margin-top: 50px;
-    margin-left: 100px;
+    margin-top: 5vh;
+    margin-left: 5.5vw;
+    overflow: auto;
 }
 
 .addButton {
     border: none;
-    border-radius: 8px;
+    border-radius: 1vw;
     background-color: rgb(0, 44, 92);
     color: palevioletred;
-    padding: 14px 20px;
-    margin-left: 23px;
+    padding: 1vw 1vw;
+    margin-left: 2vw;
     font-weight: bolder;
     
 }
 
 .container p {
     border: 1px solid rgb(0, 44, 92);
-    border-radius: 8px;
-    width: 500px;
-    height: 30px;
-    padding-left: 12px;
-    padding-top: 8px;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    width: 50vw;
+    height: 6vh;
     background-color: rgb(242, 229, 255);
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 5vh;
+    margin-left: 5.5vw;
     
+}
+
+
+@media (max-width: 600px) {
+    
+    .logo-img {
+        height: 7vw;
+        margin-top: 18vh;
+        margin-left: 15vw;
+    }
+
+    .inputBox {
+        border: 1px solid rgb(0, 44, 92);
+        border-radius: 1vw;
+        padding-left: 1vw;
+        width: 50vw;
+        height: 6vh;
+        background-color: rgb(242, 229, 255);
+        margin-top: 5vh;
+        margin-left: 8.5vw;
+        overflow: auto;
+    }
+
+    .addButton {
+        border: none;
+        border-radius: 1vw;
+        background-color: rgb(0, 44, 92);
+        color: palevioletred;
+        padding: 1vw 1vw;
+        margin-left: 8.5vw;
+        font-weight: bolder;
+        margin-top: 2.5vw;
+        
+    }
+
+    .container p {
+        margin-left: 8.5vw;
+        overflow: auto;
+    }
+
+   
+
+
 }
